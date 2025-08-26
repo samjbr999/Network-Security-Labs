@@ -13,7 +13,8 @@ This lab demonstrates **active information gathering**, directly interacting wit
 - Identified network hops and routes.  
 - Collected service banners for software versioning.  
 
-![Screenshot](active-recon.png)
+![Active Recon Screenshot](./active-recon.PNG)
+
 
 ## Remediation Advice
 - Restrict ICMP and traceroute responses.  
