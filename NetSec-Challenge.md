@@ -12,9 +12,10 @@ This is the **capstone challenge** for the Network Security path, combining pass
 ## Findings with Screenshots
 - Discovered multiple open services.  
 - Confirmed internal routing paths.  
-- Validated service versions and vulnerabilities.  
+- Validated service versions and vulnerabilities.
+- 
+![Net Sec Challenge Screenshot](./netsec-challenge.PNG)
 
-![Screenshot](netsec-challenge.png)
 
 ## Remediation Advice
 - Apply **defense-in-depth** (firewalls, IDS, segmentation).  
