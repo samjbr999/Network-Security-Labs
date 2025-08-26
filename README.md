@@ -1,44 +1,53 @@
-# Nmap Advanced Scanning
+# Network Security Labs  
 
-This repository contains **walkthroughs and notes** from advanced Nmap scanning labs.  
-The focus is on **firewall/IDS evasion techniques, custom scans, and stealth reconnaissance** using Nmap.
-
----
-
-## Scans Covered
-- TCP Null Scan, FIN Scan, and Xmas Scan  
-- TCP Maimon Scan  
-- TCP ACK, Window, and Custom Scans  
-- Spoofing and Decoys  
-- Fragmented Packets  
-- Idle/Zombie Scan  
-- Gathering More Details  
+This repository contains **walkthroughs, notes, and exploitation reports** from the **Network Security** learning path.  
+The focus is on **network reconnaissance, Nmap scanning, and protocol analysis**, with hands-on examples and screenshots.  
 
 ---
 
-## Report Format
-Each write-up includes:  
-1. **Summary of the Scan** – When and why to use it.  
-2. **Exploitation/Execution Steps** – Example Nmap commands and options.  
-3. **Findings with Screenshots** – Evidence of scan results.  
-4. **Detection & Evasion Notes** – How this scan avoids detection.  
-5. **Remediation Advice** – Defensive measures against this technique.  
+## Labs Covered  
+
+1. **Passive Reconnaissance**  
+   - Using tools like `whois`, `nslookup`, `dig`, and search engines to gather intelligence without touching the target.  
+
+2. **Active Reconnaissance**  
+   - Leveraging tools like `traceroute`, `ping`, `telnet`, and web browsers to actively interact with targets.  
+
+3. **Nmap Basic Port Scans**  
+   - Performing TCP connect, SYN, and UDP scans to identify open ports and services.  
+
+4. **Nmap Advanced Port Scans**  
+   - Using stealth techniques such as FIN, XMAS, NULL, and idle scans; bypassing firewalls and intrusion detection systems.  
+
+5. **Protocols & Servers**  
+   - Understanding common protocols (HTTP, FTP, SMTP, IMAP) and identifying their vulnerabilities in practice.  
 
 ---
 
-## Lab Reports
-- [Null/FIN/Xmas Scan](Null-FIN-Xmas.md)  
-- [Maimon Scan](Maimon.md)  
-- [ACK, Window, and Custom Scan](ACK-Window-Custom.md)  
-- [Spoofing and Decoys](Spoofing-Decoys.md)  
-- [Fragmented Packets](Fragmentation.md)  
-- [Idle/Zombie Scan](Idle-Zombie.md)  
+## Report Format  
+
+Each lab write-up includes:  
+1. **Summary of the Target** – Short description of the lab and objectives.  
+2. **Exploitation Steps** – Walkthrough of tools, commands, and techniques used.  
+3. **Findings with Screenshots** – Proof of vulnerabilities or reconnaissance results.  
+4. **Remediation Advice** – Guidance to secure and mitigate issues.  
 
 ---
 
-## About This Repo
-This repo is designed to showcase **advanced reconnaissance techniques** using Nmap, including:  
-- Firewall/IDS evasion strategies  
-- Spoofing and stealth scanning  
-- Practical command usage for penetration testing  
-- Defenses and mitigations against advanced scans
+## Lab Reports  
+
+- [Passive Reconnaissance](Passive-Recon.md)  
+- [Active Reconnaissance](Active-Recon.md)  
+- [Nmap Basic Scans](Nmap-Basic.md)  
+- [Nmap Advanced Scans](Nmap-Advanced.md)  
+- [Protocols & Servers](Protocols-Servers.md)  
+
+---
+
+## About This Repo  
+
+This repo is designed to showcase **penetration testing fundamentals in networking**, including:  
+- Passive & Active Reconnaissance  
+- Service and Port Scanning with Nmap  
+- Firewall and IDS evasion techniques  
+- Protocol analysis and common misconfigurations  
