@@ -1,62 +1,44 @@
-# Network Security Labs  
+# Nmap Advanced Scanning
 
-Practical network security labs focused on **reconnaissance, scanning, protocol enumeration, and exploitation techniques**.  
-This repository contains **walkthroughs, notes, and exploitation reports** from the Network Security learning path.  
-
----
-
-## Labs Covered  
-- Passive Reconnaissance  
-- Active Reconnaissance  
-- Nmap Live Host Discovery  
-- Nmap Basic Port Scans  
-- Nmap Advanced Port Scans  
-- Nmap Post Port Scans  
-- Protocols and Servers (1 & 2)  
-- Net Sec Challenge  
+This repository contains **walkthroughs and notes** from advanced Nmap scanning labs.  
+The focus is on **firewall/IDS evasion techniques, custom scans, and stealth reconnaissance** using Nmap.
 
 ---
 
-## Prerequisites  
-These labs primarily use:  
-- **Nmap** – scanning, host discovery, and service enumeration  
-- **Whois / Dig / Nslookup** – passive reconnaissance tools  
-- **Traceroute / Ping / Telnet / Netcat** – active reconnaissance and protocol testing  
-- **Wireshark** – packet capture and protocol analysis  
-- **Common protocol clients** (FTP, SSH, SMTP, etc.)  
+## Scans Covered
+- TCP Null Scan, FIN Scan, and Xmas Scan  
+- TCP Maimon Scan  
+- TCP ACK, Window, and Custom Scans  
+- Spoofing and Decoys  
+- Fragmented Packets  
+- Idle/Zombie Scan  
+- Gathering More Details  
 
 ---
 
-## Report Format  
+## Report Format
 Each write-up includes:  
-1. **Summary of the Target** – objectives and skills covered.  
-2. **Exploitation Steps** – walkthrough of commands, tools, and techniques used.  
-3. **Findings with Screenshots** – proof of vulnerabilities, misconfigurations, or results.  
-4. **Remediation Advice** – how to mitigate or fix the issue.  
+1. **Summary of the Scan** – When and why to use it.  
+2. **Exploitation/Execution Steps** – Example Nmap commands and options.  
+3. **Findings with Screenshots** – Evidence of scan results.  
+4. **Detection & Evasion Notes** – How this scan avoids detection.  
+5. **Remediation Advice** – Defensive measures against this technique.  
 
 ---
 
-## Lab Reports  
-- [Passive Reconnaissance](Passive-Reconnaissance.md)  
-- [Active Reconnaissance](Active-Reconnaissance.md)  
-- [Nmap Live Host Discovery](Nmap-Live-Host-Discovery.md)  
-- [Nmap Basic Port Scans](Nmap-Basic-Port-Scans.md)  
-- [Nmap Advanced Port Scans](Nmap-Advanced-Port-Scans.md)  
-- [Nmap Post Port Scans](Nmap-Post-Port-Scans.md)  
-- [Protocols and Servers](Protocols-and-Servers.md)  
-- [Net Sec Challenge](NetSec-Challenge.md)  
+## Lab Reports
+- [Null/FIN/Xmas Scan](Null-FIN-Xmas.md)  
+- [Maimon Scan](Maimon.md)  
+- [ACK, Window, and Custom Scan](ACK-Window-Custom.md)  
+- [Spoofing and Decoys](Spoofing-Decoys.md)  
+- [Fragmented Packets](Fragmentation.md)  
+- [Idle/Zombie Scan](Idle-Zombie.md)  
 
 ---
 
-## About This Repo  
-This repo is designed to showcase **core penetration testing fundamentals**, including:  
-- OSINT and reconnaissance techniques  
-- Network scanning with Nmap (basic, advanced, and evasive scans)  
-- Protocol enumeration & exploitation  
-- Hands-on challenges with reporting and remediation guidance  
-
----
-
-## Disclaimer  
-All labs were performed in **safe, controlled environments** (TryHackMe/HTB/VMs).  
-The material is for **educational purposes only**.  
+## About This Repo
+This repo is designed to showcase **advanced reconnaissance techniques** using Nmap, including:  
+- Firewall/IDS evasion strategies  
+- Spoofing and stealth scanning  
+- Practical command usage for penetration testing  
+- Defenses and mitigations against advanced scans
