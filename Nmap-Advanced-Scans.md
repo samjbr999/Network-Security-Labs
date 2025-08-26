@@ -13,7 +13,7 @@ This lab focuses on **advanced Nmap techniques** like stealth scans, evasion, an
 - Bypassed IDS logging using spoofed scans.  
 - Validated service availability stealthily.  
 
-![Screenshot](nmap-advanced.png)
+![Nmap Advanced Scans Screenshot](./nmap-advanced.PNG)
 
 ## Remediation Advice
 - Enable IDS/IPS with stealth scan detection.  
