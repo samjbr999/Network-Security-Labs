@@ -13,7 +13,8 @@ This lab covers **Nmap basic port scanning** methods to enumerate open TCP/UDP p
 - UDP ports responding to queries.  
 - Identified potential services for exploitation.  
 
-![Screenshot](nmap-basic.png)
+![Nmap Basic Scans Screenshot](./nmap-basic.PNG)
+
 
 ## Remediation Advice
 - Use firewalls to filter unused ports.  
