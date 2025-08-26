@@ -11,7 +11,8 @@ This lab focuses on passive information gathering using tools like whois, nslook
 ## Findings with Screenshots
 - Identified domain registrar and nameservers.  
 - Extracted IP ranges and email contacts.  
-![Screenshot](passive-recon.png)
+![Passive Recon Screenshot](./passive-recon.PNG)
+
 
 ## Remediation Advice
 - Use privacy-protected WHOIS records.  
